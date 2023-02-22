@@ -1,0 +1,41 @@
+/* accent color  #4D5AE5 */
+/* header text color #2E2F42; */
+/* address, main text in paragraphs color #434455 */
+/* white #FFF */
+/* footer logo white #F4F4FD */
+/* footer text header background  #E7E9FC */
+/* dark background #2E2F42 */
+/* light background #E5E5E5 */
+/* photo background #F4F4FD */
+
+.page {
+  color: #434455;
+  background-color: #fff;
+}
+
+.list {
+  list-style: none;
+}
+
+h2,
+h3 {
+  color: #2e2f42;
+}
+
+/* Header */
+
+.logo {
+  color: #2e2f42;
+}
+.web {
+  color: #4d5ae5;
+}
+
+/* Hero */
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  color: #fff;
+}
