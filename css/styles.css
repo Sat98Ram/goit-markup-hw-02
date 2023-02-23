@@ -20,8 +20,8 @@
   --primary-white-color: #fff;
 }
 
-.page {
-  font-family: "Roboto";
+body {
+  font-family: "Roboto", "sans-serif";
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
 }
@@ -101,6 +101,40 @@
   color: var(--hover-focus-color);
 }
 
+/* Footer */
+
+.footer {
+  background-color: var(--dark-background-color);
+  width: 1440px;
+  height: 310px;
+}
+
+.footer-logo {
+  text-decoration: none;
+  width: 115px;
+  height: 22px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--contrast-logo-color);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--footer-text-color);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+/* Main Page Content */
+
 /* Hero */
 .hero {
   width: 1440px;
@@ -122,7 +156,8 @@
   color: var(--primary-white-color);
 }
 
-.button {
+.hero-button {
+  cursor: pointer;
   position: absolute;
   width: 169px;
   height: 56px;
@@ -152,8 +187,6 @@
 .feature-item {
   width: 264px;
   height: 72px;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -162,6 +195,8 @@
 /* Our Team */
 
 .team {
+  width: 1440px;
+  height: 732px;
   background-color: var(--light-background-color);
 }
 
@@ -183,24 +218,40 @@
   letter-spacing: 0.02em;
 }
 
-/* Footer */
+/* Portfolio */
 
-.footer {
-  color: var(--footer-text-color);
-  background-color: var(--dark-background-color);
-  height: 310px;
+/* Filters */
+
+.button {
+  cursor: pointer;
+  color: var(--accent-color);
+  background-color: var(--light-background-color);
 }
 
-.footer-logo {
+.button:hover,
+.button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--hover-focus-color);
+}
+
+/* Works */
+
+.work-link {
   text-decoration: none;
-  width: 115px;
-  height: 22px;
-  font-family: "Raleway";
+}
+
+.work-title {
+  color: var(--title-text-color);
   font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--contrast-logo-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.work-type {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
