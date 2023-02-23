@@ -12,28 +12,41 @@
   --primary-text-color: #434455;
   --title-text-color: #2e2f42;
   --accent-color: #4d5ae5;
-  --hover-link-color: #404bbf;
+  --hover-focus-color: #404bbf;
+  --contrast-logo-color: #f4f4fd;
+  --footer-text-color: #e7e9fc;
   --dark-background-color: #2e2f42;
   --light-background-color: #f4f4fd;
+  --primary-white-color: #fff;
 }
 
 .page {
+  font-family: "Roboto";
   color: var(--primary-text-color);
-  background-color: #fff;
+  background-color: var(--primary-white-color);
 }
 
 .list {
   list-style: none;
 }
 
-h2,
-h3 {
+.section-title {
   color: var(--title-text-color);
 }
 
 /* Header */
 
 .logo {
+  text-decoration: none;
+  width: 115px;
+  height: 22px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--title-text-color);
 }
 .web {
@@ -42,22 +55,38 @@ h3 {
 
 /* Site nav */
 
-.site-nav .link {
+.site-nav-list {
+  list-style: none;
+}
+
+.site-nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
   color: var(--title-text-color);
 }
 
-.site-nav .link:hover {
-  color: var(--hover-link-color);
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--hover-focus-color);
 }
 
 /* Address */
-
-.address .link {
-  color-scheme: var(--primary-text-color);
+.address-list {
+  list-style: none;
 }
 
-.address .link:hover {
-  color: var(--hover-link-color);
+.address-link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--hover-focus-color);
 }
 
 /* Hero */
@@ -66,17 +95,38 @@ h3 {
 }
 
 .hero-title {
-  color: #fff;
+  text-align: center;
+  color: var(--primary-white-color);
+}
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--hover-focus-color);
 }
 
 /* Footer */
 
 .footer {
-  color: #e7e9fc;
+  color: var(--footer-text-color);
   background-color: var(--dark-background-color);
   height: 310px;
 }
 
 .footer-logo {
-  color: #f4f4fd;
+  text-decoration: none;
+  width: 115px;
+  height: 22px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--contrast-logo-color);
 }

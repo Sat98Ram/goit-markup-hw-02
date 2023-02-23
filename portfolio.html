@@ -6,29 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <header>
+  <body class="page">
+    <header class="header">
       <nav>
         <a href="./index.html" class="logo">
           <span class="web">Web</span>Studio
         </a>
-        <ul class="site-nav list">
-          <li><a href="" class="link">Studio</a></li>
-          <li><a href="portfolio.html" class="link">Portfolio</a></li>
-          <li><a href="" class="link">Contacts</a></li>
+        <ul class="site-nav-list">
+          <li><a href="./index.html" class="site-nav-link">Studio</a></li>
+          <li>
+            <a href="./portfolio.html" class="site-nav-link">Portfolio</a>
+          </li>
+          <li><a href="" class="site-nav-link">Contacts</a></li>
         </ul>
       </nav>
 
       <address>
-        <ul class="address list">
+        <ul class="address-list">
           <li>
-            <a href="mailto:info@devstudio.com" class="link"
+            <a href="mailto:info@devstudio.com" class="address-link"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
+            <a href="tel:+110001111111" class="address-link"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
@@ -38,19 +54,19 @@
         <h1>Filters</h1>
         <ul class="list">
           <li>
-            <a href="">All</a>
+            <button type="button">All</button>
           </li>
           <li>
-            <a href="index.html">Web Site</a>
+            <button type="button">Web Site</button>
           </li>
           <li>
-            <a href="">App</a>
+            <button type="button">App</button>
           </li>
           <li>
-            <a href="">Design</a>
+            <button type="button">Design</button>
           </li>
           <li>
-            <a href="">Marketing</a>
+            <button type="button">Marketing</button>
           </li>
         </ul>
       </section>
@@ -59,84 +75,73 @@
         <h2>Examples</h2>
         <ul class="list">
           <li>
-            <img
-              src="./images/portfolio/banking-app.jpg"
-              alt="Banking App Interface"
-            />
-            <h2>Banking App Interface Concept</h2>
+            <img src="./images/portfolio/banking-app.jpg" alt="Banking App
+            Interface" width: 360px; height: 300px; />
+            <h3>Banking App Interface Concept</h3>
             <p>
               <a href="">App</a>
             </p>
           </li>
           <li>
-            <img
-              src="./images/portfolio/payment.jpg"
-              alt="a smartphone scans a QR code"
-            />
-            <h2>Cashless Payment</h2>
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio/meditation.jpg"
-              alt="A laptop and a smartphone"
-            />
-            <h2>Meditaion App</h2>
-            <p>App</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio/taxi.jpg"
-              alt="a taxi app opened in front of a driver"
-            />
-            <h2>Taxi Service</h2>
+            <img src="./images/portfolio/payment.jpg" alt="a smartphone scans a
+            QR code" width: 360px; height: 300px; />
+            <h3>Cashless Payment</h3>
             <p>
               <a href="">Marketing</a>
             </p>
           </li>
           <li>
-            <img
-              src="./images/portfolio/illustration.jpg"
-              alt="Fantastic fool moon Illustrations"
-            />
-            <h2>Screen Illustrations</h2>
+            <img src="./images/portfolio/meditation.jpg" alt="A laptop and a
+            smartphone" width: 360px; height: 300px; />
+            <h3>Meditaion App</h3>
             <p>
-              <a href="">Design</a>
+              <a href="">App</a>
             </p>
           </li>
           <li>
-            <img
-              src="./images/portfolio/girl.jpg"
-              alt="Young woman with a smartphone"
-            />
-            <h2>Online Courses</h2>
+            <img src="./images/portfolio/taxi.jpg" alt="a taxi app opened in
+            front of a driver" width: 360px; height: 300px; />
+            <h3>Taxi Service</h3>
             <p>
               <a href="">Marketing</a>
             </p>
           </li>
           <li>
-            <img
-              src="./images/portfolio/stories.jpg"
-              alt="Instagram Stories examples"
-            />
-            <h2>Instagram Stories Concept</h2>
+            <img src="./images/portfolio/illustration.jpg" alt="Fantastic fool
+            moon Illustrations" width: 360px; height: 300px; />
+            <h3>Screen Illustrations</h3>
             <p>
               <a href="">Design</a>
             </p>
           </li>
           <li>
-            <img
-              src="./images/portfolio/organic.jpg"
-              alt="Vegetables in a net"
-            />
-            <h2>Organic Food</h2>
+            <img src="./images/portfolio/girl.jpg" alt="Young woman with a
+            smartphone" width: 360px; height: 300px; />
+            <h3>Online Courses</h3>
+            <p>
+              <a href="">Marketing</a>
+            </p>
+          </li>
+          <li>
+            <img src="./images/portfolio/stories.jpg" alt="Instagram Stories
+            examples" width: 360px; height: 300px; />
+            <h3>Instagram Stories Concept</h3>
+            <p>
+              <a href="">Design</a>
+            </p>
+          </li>
+          <li>
+            <img src="./images/portfolio/organic.jpg" alt="Vegetables in a net"
+            width: 360px; height: 300px; />
+            <h3>Organic Food</h3>
             <p>
               <a href="">Organic Food</a>
             </p>
           </li>
           <li>
-            <img src="./images/portfolio/coffee.jpg" alt="A cup of coffe" />
-            <h2>Fresh Coffee</h2>
+            <img src="./images/portfolio/coffee.jpg" alt="A cup of coffe" width:
+            360px; height: 300px;/>
+            <h3>Fresh Coffee</h3>
             <p>
               <a href="">Web Site</a>
             </p>
