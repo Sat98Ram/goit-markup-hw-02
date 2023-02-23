@@ -195,8 +195,6 @@ body {
 /* Our Team */
 
 .team {
-  width: 1440px;
-  height: 732px;
   background-color: var(--light-background-color);
 }
 
