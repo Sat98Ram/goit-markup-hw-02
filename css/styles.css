@@ -8,8 +8,17 @@
 /* light background #E5E5E5 */
 /* photo background #F4F4FD */
 
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --hover-link-color: #404bbf;
+  --dark-background-color: #2e2f42;
+  --light-background-color: #f4f4fd;
+}
+
 .page {
-  color: #434455;
+  color: var(--primary-text-color);
   background-color: #fff;
 }
 
@@ -19,21 +28,41 @@
 
 h2,
 h3 {
-  color: #2e2f42;
+  color: var(--title-text-color);
 }
 
 /* Header */
 
 .logo {
-  color: #2e2f42;
+  color: var(--title-text-color);
 }
 .web {
-  color: #4d5ae5;
+  color: var(--accent-color);
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover {
+  color: var(--hover-link-color);
+}
+
+/* Address */
+
+.address .link {
+  color-scheme: var(--primary-text-color);
+}
+
+.address .link:hover {
+  color: var(--hover-link-color);
 }
 
 /* Hero */
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--dark-background-color);
 }
 
 .hero-title {
@@ -43,5 +72,11 @@ h3 {
 /* Footer */
 
 .footer {
-  background-color: #2e2f42;
+  color: #e7e9fc;
+  background-color: var(--dark-background-color);
+  height: 310px;
+}
+
+.footer-logo {
+  color: #f4f4fd;
 }
