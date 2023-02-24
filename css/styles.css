@@ -139,6 +139,13 @@ body {
   letter-spacing: 0.02em;
 }
 
+.footer-item {
+  width: 264px;
+  height: 110px;
+  left: 156px;
+  top: 2380px;
+}
+
 /* Main Page Content */
 
 /* Hero */
