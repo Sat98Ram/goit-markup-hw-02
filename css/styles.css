@@ -140,6 +140,8 @@ body {
 }
 
 .footer-item {
+  padding: 100px 0 100px 156px;
+  margin: 0;
   width: 264px;
   height: 110px;
   left: 156px;
